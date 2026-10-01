@@ -228,12 +228,16 @@ EcoSort/
 ---
 
 ## How to Run the Project
-
+---
 ### 1. Clone the Repository
 
 ```bash
 git clone <repository-url>
 cd <repository-folder>
+
+Note:
+The fine-tuned FLAN-T5 model weights (model.safetensors) are not included in this repository because the file exceeds GitHub size limitations. The model can be recreated by running the fine-tuning notebook cells in Part 4.
+
 ```
 
 ### 2. Install Required Libraries
